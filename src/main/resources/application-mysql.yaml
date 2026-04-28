@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ms-db-connection
+  datasource:
+    url: jdbc:mysql://localhost:3307/database
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

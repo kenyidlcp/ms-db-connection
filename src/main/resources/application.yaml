@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ms-db-connection
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mongodb:
+    uri: mongodb://admin:admin@localhost:27016/database?authSource=admin
